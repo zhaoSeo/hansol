@@ -112,6 +112,31 @@ header .spot li:last-child a {padding-right: 0;}
 .notice article > div.right ul li a {display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 400px; height: 60px; line-height: 60px; text-indent: 30px;}
 .notice article > div.right p {position: absolute; right: 30px; top: 0;}
 
+.banner {padding: 55px 0; background: url(../img/bg_main_business.jpg) no-repeat center top;}
+.banner ul {display: flex; width: 1180px; margin: 0 auto;}
+.banner ul li {flex: 1; padding: 0 0 0 20px;}
+.banner ul li:first-child {padding: 0;}
+.banner ul li a {display: block; padding: 330px 0 0; box-sizing: border-box; font-size: 14px; color: #3e413d; text-align: center; height: 390px;}
+.banner ul li:nth-child(1) a {background: url(../img/thumbview4.jpeg) no-repeat;}
+.banner ul li:nth-child(2) a {background: url(../img/bg_main03.jpg) no-repeat;}
+.banner ul li:nth-child(3) a {background: url(../img/thumbview6.jpeg) no-repeat;}
+.banner ul li:nth-child(4) a {background: url(../img/thumbview2.jpeg) no-repeat;}
+.banner ul li a strong {display: block; font-size: 23px; color: #000;}
+
+footer .top {background: #383f43;}
+footer .top > div {width: 1180px; margin: 0 auto; padding: 13px 0;}
+footer .top > div ul {float: left;}
+footer .top > div ul li {position: relative; float: left; padding: 0 19px 0 0;}
+footer .top > div ul li:after {position: absolute; right: 9px; top: 50%; margin-top: -4px; content: ""; width: 1px; height: 8px; background: #70767a;}
+footer .top > div ul li a {color: #fff; font-size: 13px; line-height: 45px;}
+footer .top > div ul li:last-child:after {display: none;}
+footer .top > div div {float: right;}
+footer .top > div div p {display: inline-block; width: 242px; height: 45px; text-align: center; line-height: 45px; background: #2a3033; color: #fff; font-size: 13px;}
+footer .top > div div p strong {padding: 0 0 0 15px; font-size: 20px;}
+footer .top > div div select {padding: 0 0 0 21px; width: 200px; height: 45px; color: #191919; font-size: 12px; box-sizing: border-box; border: none; vertical-align: 3px;}
+
+
+
 
 
 /* slide */
@@ -131,3 +156,4 @@ header .spot li:last-child a {padding-right: 0;}
 .slide .control .on a {background: #fff;}
 .slide .control li a {display: block; width: 50px; height: 3px; background: rgba(255,255,255,0.5);}
 .slide .control a {color: transparent;}
+
